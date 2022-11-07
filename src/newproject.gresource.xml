@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/martins/new/project">
+    <file preprocess="xml-stripblanks">newproject-window.ui</file>
+    <file alias="images/circle.svg">../data/images/circle.svg</file>
+    <file>style.css</file>
+  </gresource>
+</gresources>

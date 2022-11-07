@@ -1,0 +1,6 @@
+data/martins.new.project.desktop.in
+data/martins.new.project.appdata.xml.in
+data/martins.new.project.gschema.xml
+src/main.c
+src/newproject-window.c
+src/newproject-window.ui

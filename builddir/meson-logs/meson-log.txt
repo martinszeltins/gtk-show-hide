@@ -1,0 +1,11 @@
+Build started at 2022-11-07T17:57:41.272400
+Main binary: /usr/bin/python3
+Build Options: -Dbuildtype=debug
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /home/martins/Projects/newproject
+Build dir: /home/martins/Projects/newproject/builddir
+Build type: native build
+
+meson.build:1:0: ERROR: Meson version is 0.53.2 but project requires >= 0.59.0

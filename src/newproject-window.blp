@@ -1,0 +1,34 @@
+using Gtk 4.0;
+using Adw 1;
+
+template NewprojectWindow: Adw.ApplicationWindow {
+  default-width: 800;
+  default-height: 450;
+
+  Box {
+    orientation: vertical;
+
+    HeaderBar header_bar {}
+
+    Image img_circle {
+      resource: "/martins/new/project/images/circle.svg";
+      pixel-size: 200;
+      margin-top: 25;
+    }
+
+    Box {
+      orientation: horizontal;
+      halign: center;
+      margin-top: 50;
+      spacing: 20;
+
+      Button btn_show {
+        label: "Show";
+      }
+
+      Button btn_hide {
+        label: "Hide";
+      }
+    }
+  }
+}

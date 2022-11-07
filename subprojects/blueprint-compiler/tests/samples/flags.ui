@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <object class="GApplication">
+    <property name="flags">is_service|handles_open</property>
+  </object>
+  <object class="GtkEventControllerScroll">
+    <property name="flags">vertical</property>
+  </object>
+</interface>
