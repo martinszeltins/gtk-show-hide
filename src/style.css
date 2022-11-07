@@ -1,3 +1,12 @@
 .text-button {
   padding: 25px 90px;
 }
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+

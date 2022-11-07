@@ -32,10 +32,13 @@ static void newproject_window_init (NewprojectWindow * self)
 
 void btn_show_clicked (GtkWidget * button, NewprojectWindow * window)
 {
-  gtk_widget_show(GTK_WIDGET(window->img_circle));
+  GtkStyleContext * context = gtk_widget_get_style_context(GTK_WIDGET(window->img_circle));
+  gtk_style_context_remove_class(context, "opacity-0");
 }
 
 void btn_hide_clicked (GtkWidget * button, NewprojectWindow * window)
 {
-  gtk_widget_hide(GTK_WIDGET(window->img_circle));
+  GtkStyleContext * context = gtk_widget_get_style_context(GTK_WIDGET(window->img_circle));
+  gtk_style_context_add_class(context, "opacity-0");
 }
+
