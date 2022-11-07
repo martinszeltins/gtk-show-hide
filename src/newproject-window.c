@@ -16,7 +16,7 @@ static void newproject_window_class_init (NewprojectWindowClass * klass)
     gtk_widget_class_bind_template_child (widget_class, NewprojectWindow, header_bar);
 
     gtk_widget_class_bind_template_callback (widget_class, btn_show_clicked);
-  gtk_widget_class_bind_template_callback (widget_class, btn_hide_clicked);
+    gtk_widget_class_bind_template_callback (widget_class, btn_hide_clicked);
 }
 
 static void newproject_window_init (NewprojectWindow * self)
@@ -28,7 +28,6 @@ void btn_show_clicked (GtkWidget * button)
 {
   g_print("Show");
 }
-
 
 void btn_hide_clicked (GtkWidget * button)
 {
