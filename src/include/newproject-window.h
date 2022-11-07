@@ -11,6 +11,10 @@ G_BEGIN_DECLS
 
 G_DECLARE_FINAL_TYPE (NewprojectWindow, newproject_window, NEWPROJECT, WINDOW, AdwApplicationWindow)
 
+void btn_show_clicked (GtkWidget * button);
+void btn_hide_clicked (GtkWidget * button);
+
 G_END_DECLS
 
 #endif
+

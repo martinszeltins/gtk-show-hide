@@ -24,10 +24,12 @@ template NewprojectWindow: Adw.ApplicationWindow {
 
       Button btn_show {
         label: "Show";
+        clicked => btn_show_clicked();
       }
 
       Button btn_hide {
         label: "Hide";
+        clicked => btn_hide_clicked();
       }
     }
   }
